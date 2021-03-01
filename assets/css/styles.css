@@ -84,9 +84,10 @@ img{
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  text-decoration: underline;
   
 }
-.section-title::after{
+/*.section-title::after{
   position: absolute;
   content: "";
   width: 64px;
@@ -96,7 +97,7 @@ img{
   margin: auto;
   top: 2rem;
   background-color: var(--first-color);
-}
+}*/
 .section{
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -113,6 +114,7 @@ img{
   margin-right: var(--mb-2);
 }
 .l-header{
+
   width: 100%;
   position: fixed;
   top: 0;
@@ -312,6 +314,8 @@ li{
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  color: rgb(27, 0, 46);
+  background-color: darkorange;;
 }
 
 /* ===== FOOTER =====*/
