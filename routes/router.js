@@ -3,16 +3,16 @@ const nodemailer = require('nodemailer');
 const router = Router();
 
 router.post('/send-email', async (req, res) => {
-    const { email, message } = req.body;
+    const { name, email, message } = req.body;
 
     contentHTML = `
     <h1>Email desde website personal</h1>  
+    <h3>Nombre: ${name}</h3>
     <h3>Email: ${email}</h3>
     <p>Mensaje: ${message}</p>`;
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
-
         auth: {
             user: 'megafonomailer@gmail.com',
             pass: 'IvoVirginia2017'
