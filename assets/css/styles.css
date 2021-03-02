@@ -345,10 +345,10 @@ li{
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
+  margin-left: 7rem;
   cursor: pointer;
-  margin-left: auto;
   color: rgb(27, 0, 46);
-  background-color: darkorange;;
+  background-color: var(--second-color);
 }
 
 /* ===== FOOTER =====*/
@@ -466,6 +466,9 @@ li{
     justify-items: center;
   }
 
+  .contact__button{
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 1024px){
