@@ -8,7 +8,7 @@ function irArriba() { //subir al clickear
     });
 
     $(window).scroll(function () { //aparecer cuando bajas
-        if ($(this).scrollTop() > 0) {
+        if ($(this).scrollTop() > 100) {
             $('.subir').slideDown(400);
         } else {
             $('.subir').slideUp(400);

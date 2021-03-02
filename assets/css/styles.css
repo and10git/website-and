@@ -317,6 +317,10 @@ li{
 }
 
 /* ===== CONTACT =====*/
+.project-card{
+  margin-bottom: var(--mb-5);
+}
+/* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
@@ -386,8 +390,8 @@ li{
     margin: 0;
   }
   .section{
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
   .section-title{
     margin-bottom: var(--mb-6);
