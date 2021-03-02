@@ -198,14 +198,20 @@ img{
 }
 .home__title{
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-1);
-  margin-top: var(--mb-6);
+  margin-bottom: var(--mb-3);
+  margin-top: var(--mb-4);
   margin-right: var(--mb-5);
   margin-left: var(--mb-5);
   text-align: center;
-
-
+  position: relative;
 }
+
+.home__subtitle{
+  margin: auto;
+  text-align: center;
+  font-size: var(--h2-font-size);
+}
+
 .home__title-color{
   color: var(--first-color);
 }
@@ -228,6 +234,7 @@ margin: auto;
   width: 295px;
   margin: auto;
   text-align: center;
+
 }
 
 /*BUTTONS*/
@@ -430,10 +437,7 @@ li{
   }
     .home__social{
     padding-top: 0;
-
-    flex-direction: row;
-
-
+    margin: auto;
   }
   .home__social-icon{
     margin-bottom: 0;
