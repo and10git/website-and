@@ -12,12 +12,12 @@ router.post('/send-email', async (req, res) => {
     <p>Mensaje: ${message}</p>`;
 
     const transporter = nodemailer.createTransport({
-        host: 'smtp.mailgun.org',
+        host: '',
         port: 587,
         secure: false,
         auth: {
-            user: 'postmaster@sandbox461bdf56a756447ca2e2e30ce86d4d11.mailgun.org',
-            pass: 'c12da22d924c5051e872a2949ca0d49c-e49cc42c-d86860b1'
+            user: '',
+            pass: ''
         },
         tls: { rejectUnauthorized: false }
     });
